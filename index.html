@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+    <div class="container ">
+        <div class="row  main ">
+            <div class="col-sm-12 col-md-12 col-lg-12 ">
+                <h1 id="mainHaeding">Stopwatch</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row main">
+            <div class="col-sm-12 col-md-12 col-lg-12 ">
+                <h1 id="hour">0</br>HH</h1>
+                <h1 id="min">0</br>Min</h1>
+                <h1 id="sec">0</br>Sec</h1>
+                <h1 id="msec">0</br>MSec</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row main">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <button id="start" onclick="start()">Start</button>
+                <button id="stop" onclick="stop()">Stop</button>
+                <button onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
